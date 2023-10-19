@@ -14,9 +14,9 @@ if (num < 0)
 num = -num;
 str[i++] = '-';
 }
-
-do
 {
+do
+
 str[i++] = num % 10 + '0';
 num /= 10;
 } while (num > 0);
